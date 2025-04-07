@@ -21,10 +21,8 @@ class: center, middle
 background-image: url(img/fondo.jpg)
 
 # Análisis espacial (2). Interpolación y geoestadística
-## Introducción a R y QGIS para el análisis geoespacial con apoyo de inteligencia artificial
 ### *José Martínez*
 ### Universidad Autónoma de Santo Domingo (UASD)
-#### 2024-07-09
 
 ---
 

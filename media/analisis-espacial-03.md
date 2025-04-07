@@ -5,13 +5,9 @@ Updated: 2025-04-07
 
 # Análisis espacial (3). Autocorrelación espacial
 
-## Introducción a R y QGIS para el análisis geoespacial con apoyo de inteligencia artificial
-
 ### *José Martínez*
 
 ### Universidad Autónoma de Santo Domingo (UASD)
-
-#### 2024-07-11
 
 <!-- Este .md fue generado a partir del .Rmd homónimo. Edítese el .Rmd -->
 

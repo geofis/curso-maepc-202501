@@ -20,11 +20,9 @@ options(htmltools.dir.version = FALSE)
 class: center, middle
 background-image: url(img/fondo.jpg)
 
-# Recapitulando (2024-06-21)
-## Introducción a R y QGIS para el análisis geoespacial con apoyo de inteligencia artificial
+# Recapitulando
 ### *José Martínez*
 ### Universidad Autónoma de Santo Domingo (UASD)
-#### 2024-06-19
 
 ---
 
