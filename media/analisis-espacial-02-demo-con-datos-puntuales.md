@@ -2,7 +2,7 @@ Análisis espacial (2). Interpolación y geoestadística. Demo con datos
 puntuales
 ================
 José Martínez
-2024-06-17 (updated: 2024-07-11)
+Updated: 2025-04-07
 
 <!-- Este .md fue generado a partir del .Rmd homónimo. Edítese el .Rmd -->
 
@@ -222,7 +222,7 @@ st_layers(rutapre)
 ``` r
 pre <- st_read(rutapre)
 ## Reading layer `onamet_prec_anual_sf' from data source 
-##   `/home/jose/curso-r-qgis-2024-verano/media/ejercicio-geoestadistica/onamet_prec_anual_sf.gpkg' 
+##   `/home/jose/202501/curso-maepc-202501/media/ejercicio-geoestadistica/onamet_prec_anual_sf.gpkg' 
 ##   using driver `GPKG'
 ## Simple feature collection with 25 features and 37 fields
 ## Geometry type: POINT
@@ -309,7 +309,7 @@ st_layers(rutadiv)
 ``` r
 prov <- st_read(rutadiv, layer = 'PROVCenso2010')
 ## Reading layer `PROVCenso2010' from data source 
-##   `/home/jose/curso-r-qgis-2024-verano/media/ejercicio-geoestadistica/divisionRD.gpkg' 
+##   `/home/jose/202501/curso-maepc-202501/media/ejercicio-geoestadistica/divisionRD.gpkg' 
 ##   using driver `GPKG'
 ## Simple feature collection with 32 features and 4 fields
 ## Geometry type: MULTIPOLYGON
@@ -775,7 +775,7 @@ st_layers(rutatemp)
 ``` r
 temp <- st_read(rutatemp)
 ## Reading layer `onamet_temp_anual' from data source 
-##   `/home/jose/curso-r-qgis-2024-verano/media/ejercicio-geoestadistica/onamet_temp_anual.gpkg' 
+##   `/home/jose/202501/curso-maepc-202501/media/ejercicio-geoestadistica/onamet_temp_anual.gpkg' 
 ##   using driver `GPKG'
 ## Simple feature collection with 72 features and 14 fields
 ## Geometry type: POINT

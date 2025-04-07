@@ -1,7 +1,7 @@
 Análisis espacial (3). Autocorrelación espacial
 ================
 José Martínez
-2024-06-17 (updated: 2024-07-11)
+Updated: 2025-04-07
 
 # Análisis espacial (3). Autocorrelación espacial
 

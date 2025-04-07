@@ -1,100 +1,98 @@
-Introducción a R y QGIS para el análisis geoespacial con apoyo de
-inteligencia artificial
+Métodos de análisis espacial por computador
 ================
 José Martínez
 
-Versión HTML (más legible e interactiva),
-[aquí](https://geofis.github.io/curso-r-qgis-2024-verano/README.html)
+Versión HTML (quizá más legible),
+[aquí](https://geofis.github.io/curso-maepc-202501/README.html)
 
 # Presentaciones de diapositivas incluidas en este repo y otros materiales:
 
-- [Motivación](https://geofis.github.io/curso-r-qgis-2024-verano/media/motivacion.html)
+- [Motivación](https://geofis.github.io/curso-maepc-202501/media/motivacion.html)
 
-- [Introducción al análisis
-  geoespacial](https://geofis.github.io/curso-r-qgis-2024-verano/media/introduccion-analisis-geoespacial.html)
+- Introducción a R y RStudio. Sesión interactiva.
+
+  - [Tutorial interactivo “Introducción a
+    R”](https://geofis.shinyapps.io/tutorial1/)
+
+- [Introducción al análisis espacial o
+  geoespacial](https://geofis.github.io/curso-maepc-202501/media/introduccion-analisis-geoespacial.html)
 
 - [Conceptos básicos de SIG y datos
-  geoespaciales](https://geofis.github.io/curso-r-qgis-2024-verano/media/conceptos-basicos-sig-datos-geoespaciales.html)
+  geoespaciales](https://geofis.github.io/curso-maepc-202501/media/conceptos-basicos-sig-datos-geoespaciales.html)
 
 - [Manipulación de datos geoespaciales con
-  QGIS](https://geofis.github.io/curso-r-qgis-2024-verano/media/manipulacion-datos-geoespaciales-con-qgis.html)
+  QGIS](https://geofis.github.io/curso-maepc-202501/media/manipulacion-datos-geoespaciales-con-qgis.html)
 
 - [Manipulación de datos geoespaciales con
-  R](https://geofis.github.io/curso-r-qgis-2024-verano/media/manipulacion-datos-geoespaciales-con-r.html)
+  R](https://geofis.github.io/curso-maepc-202501/media/manipulacion-datos-geoespaciales-con-r.html)
 
 - [Obtención de datos geoespaciales desde la
-  nube](https://geofis.github.io/curso-r-qgis-2024-verano/media/obtencion-de-datos-geoespaciales-desde-la-nube.html)
+  nube](https://geofis.github.io/curso-maepc-202501/media/obtencion-de-datos-geoespaciales-desde-la-nube.html)
 
-- [Análisis espacial
-  (1)](https://geofis.github.io/curso-r-qgis-2024-verano/media/analisis-espacial-01.html)
+- [Análisis espacial (1).
+  Introducción](https://geofis.github.io/curso-maepc-202501/media/analisis-espacial-01.html)
 
 - [Análisis espacial (2). Interpolación y
-  geoestadística](https://geofis.github.io/curso-r-qgis-2024-verano/media/analisis-espacial-02.html)
+  geoestadística](https://geofis.github.io/curso-maepc-202501/media/analisis-espacial-02.html)
 
-- [Análisis espacial (2). Interpolación y geoestadística. Demo con datos
-  puntuales](https://github.com/geofis/curso-r-qgis-2024-verano/blob/main/media/analisis-espacial-02-demo-con-datos-puntuales.md)
+- [Análisis espacial (3). Interpolación y geoestadística. Demo con datos
+  puntuales](https://github.com/geofis/curso-maepc-202501/blob/main/media/analisis-espacial-02-demo-con-datos-puntuales.md)
 
-- [Análisis espacial (3). Autocorrelación
-  espacial](https://github.com/geofis/curso-r-qgis-2024-verano/blob/main/media/analisis-espacial-03.md)
+- [Análisis espacial (4). Autocorrelación
+  espacial](https://github.com/geofis/curso-maepc-202501/blob/main/media/analisis-espacial-03.md)
 
-- [Análisis espacial (3). Autocorrelación espacial. Demo de
+- [Análisis espacial (5). Autocorrelación espacial. Demo de
   autocorrelación con datos
-  ecológicos](https://github.com/geofis/curso-r-qgis-2024-verano/blob/main/media/analisis-espacial-03-demo-con-datos-ecologicos.md)
+  ecológicos](https://github.com/geofis/curso-maepc-202501/blob/main/media/analisis-espacial-03-demo-con-datos-ecologicos.md)
 
-- [Recapitulando](https://geofis.github.io/curso-r-qgis-2024-verano/media/recapitulando.html)
+- [Recapitulando](https://geofis.github.io/curso-maepc-202501/media/recapitulando.html)
 
 ------------------------------------------------------------------------
 
-## Programa
+## Dirigido a …
 
-- **Coordinadora**: Carime Matos
-- **Profesor**: José Ramón Martínez Batlle
-- **Cantidad de horas**: 20
-- **Fecha propuesta**: 17 - 21 de junio 2024
-- **Horario**: 3.00 - 7.00 p.m.
-- **Lugar**: FC-203 UASD
-- **Matrícula estimada**: 20-25 participantes
-
-Dirigido a:
-
-- Investigadores y asistentes de investigación que estén interesados en
-  adquirir o mejorar sus habilidades en análisis geoespacial con el
-  apoyo de herramientas de inteligencia artificial y programación en R.
-- Especialistas con interés en temas de calidad de aire y contaminación
-  atmosférica, e.g., áreas de física, química, matemática,
-  microbiología, biólogía, meteorología, geociencias.
+- Estudiantes y profesionales con interés en adquirir o mejorar sus
+  habilidades en análisis geoespacial.
 
 ### Objetivo general
 
-Capacitar en el análisis geoespacial utilizando R, QGIS y técnicas de
-inteligencia artificial para resolver problemas y proyectos en
-diferentes contextos académicos y profesionales.
+Capacitar en el análisis geoespacial utilizando lenguajes de
+programación para resolver problemas y proyectos en diferentes contextos
+académicos y profesionales.
 
 ### Objetivos específicos
 
 - Comprender los fundamentos teóricos del análisis geoespacial y su
   aplicación en diversos campos.
-- Familiarizarse con el entorno de programación R y sus capacidades para
-  el análisis estadístico y geoespacial.
+
+- Familiarizarse con el entorno de programación R y otros lenguajes, y
+  sus capacidades para el análisis estadístico y geoespacial.
+
 - Dominar las técnicas básicas de manipulación y visualización de datos
-  geoespaciales utilizando el paquete `sf` de R, y otros de su entorno
-  de análisis espacial.
+  geoespaciales.
+
 - Aprender a utilizar QGIS como una herramienta para la visualización,
   análisis y edición de datos geoespaciales.
+
 - Explorar el uso de algoritmos de inteligencia artificial y aprendizaje
   automático en el análisis de datos geoespaciales.
+
 - Integrar técnicas de inteligencia artificial con R y QGIS para la
   automatización de procesos y la mejora del análisis geoespacial.
+
 - Aplicar los conocimientos adquiridos en proyectos prácticos que
   involucren la manipulación, análisis y visualización de datos
   geoespaciales utilizando R, QGIS y herramientas de inteligencia
   artificial.
+
 - Desarrollar habilidades para interpretar y comunicar los resultados
   obtenidos mediante el análisis geoespacial utilizando herramientas
   computacionales.
+
 - Fomentar la capacidad de trabajar de manera colaborativa en proyectos
   de análisis geoespacial utilizando herramientas y metodologías
   adecuadas.
+
 - Adquirir una comprensión crítica de las limitaciones y desafíos
   asociados con el análisis geoespacial con apoyo de inteligencia
   artificial, así como las posibles aplicaciones futuras de estas
@@ -149,10 +147,5 @@ geoespacial**
 - Discusión sobre desafíos y oportunidades en el análisis geoespacial
   con inteligencia artificial
 - Exploración de tendencias y avances futuros en el campo
-
-### Evaluación
-
-La evaluación de la asignatura se realizará mediante la presentación de
-un caso de estudio distinto para 4 equipos de trabajo.
 
 ## Referencias

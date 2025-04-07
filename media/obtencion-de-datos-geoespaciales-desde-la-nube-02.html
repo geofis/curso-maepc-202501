@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Análisis espacial (1). Introducción</title>
+    <title>Obtención de datos geoespaciales desde la nube, parte 2</title>
     <meta charset="utf-8" />
     <meta name="author" content="José Martínez" />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -13,7 +13,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Análisis espacial (1). Introducción
+# Obtención de datos geoespaciales desde la nube, parte 2
 ]
 .subtitle[
 ## Métodos de análisis espacial por computador
@@ -36,70 +36,63 @@ class: center, middle, inverse, title-slide
 class: center, middle
 background-image: url(img/fondo.jpg)
 
-# Análisis espacial (1)
+# Obtención de datos geoespaciales desde la nube, parte 2
 ## Introducción a R y QGIS para el análisis geoespacial con apoyo de inteligencia artificial
 ### *José Martínez*
 ### Universidad Autónoma de Santo Domingo (UASD)
-#### 2024-06-19
+#### 2024-06-20
 
 ---
 
-# Métodos de análisis de datos geoespaciales
+# Tu turno
+
+## Pide ayuda al ChatGPT
+
+Desde la siguiente diapositiva en adelante, verás varios ejercicios de aula. Este es un buen momento para que uses el ChatGPT. Pregúntale cómo hacerlo. Para interactuar con dicha herramienta en el contexto de nuestro tema, te recomiendo lo siguiente:
+
+- Concisión. 
+
+- Agilidad. No pierdas tiempo intentando conseguir la mejor ortografía ni la mejor redacción. Las palabras clave, y un "cierto orden", son más importantes. 
+
+- Precisión en lo que se pregunta.
+
+- Mejor dar órdenes.
+
+- Truco: pídele que te documente código informático, que te lo explique.
 
 ---
 
-## Estadística zonal
+## Google EarthEngine a través del frontend de JavaScript (la aplicación web)
 
-- QGIS. Directamente en la aplicación.
+### Serie temporal NDVI 
 
-- R. Servidor.
----
+Convertir archivo divisionRD.gpkg a Shapefile EPSG:4326. Elegir una de las dos modalidades siguientes
 
-## Interpolación y geoestadística
- 
-- Técnicas de interpolación no geoestadísticas.
-
-- Técnicas de interpolación geoestadísticas.
-    - Variograma: https://www.youtube.com/watch?v=SJLDlasDLEU
-    - Técnicas de interpolación geoestadísticas, kriging: 
-    - Ejemplos: https://github.com/maestria-geotel-master/material-de-apoyo/blob/master/ref/datos-puntuales-geoestadistica.md
+- En Bash (Linux):
 
 
----
+``` bash
+ogr2ogr -f "GPKG" -t_srs "EPSG:4326" \
+  -nlt PROMOTE_TO_MULTI \
+  divisionRD_4326.gpkg divisionRD.gpkg
+ogr2ogr -f "ESRI Shapefile" \
+   -lco ENCODING=UTF-8 \
+  provincias.shp divisionRD_4326.gpkg PROVCenso2010
+```
 
-## Modelización espacial
+- En R:
 
-- Vecindad y pesos espaciales: https://github.com/maestria-geotel-master/material-de-apoyo/blob/master/ref/vecindad.md
-- Pruebas de autocorrelación espacial, indicador global y locar de autocorrelación, *I* de Moran:
-    - Ejemplos:
-        - https://github.com/maestria-geotel-master/material-de-apoyo/blob/master/ref/autocorrelacion.md
-        - (página 12 y siguientes) https://peercommunityjournal.org/item/10.24072/pcjournal.157.pdf
-        - (LISA maps, y valores de concentración) https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208780
-        - https://github.com/biogeografia-202202/material-de-apoyo/blob/master/practicas/demos-personalizadas/
-        - https://www.youtube.com/watch?v=vS4Xm0PRxPM&amp;list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&amp;index=21
 
----
+``` r
+library(sf)
+prov &lt;- st_read('divisionRD.gpkg', layer = 'PROVCenso2010')
+prov &lt;- st_transform(prov, 4326)
+st_write(prov, 'provincias.shp', layer_options = "ENCODING=UTF-8")
+```
 
-## Modelización espacial
 
-- Ajuste de modelos para predecir o explorar asociación:
-    - Ejemplos:
-        - https://github.com/maestria-geotel-master/material-de-apoyo/blob/master/ref/modelizacion-datos-espaciales-poligonales.md
-        - (página 14) https://peercommunityjournal.org/item/10.24072/pcjournal.157.pdf
 
 ---
-
-# Referencias destacadas
-
-Bivand, R. S., Pebesma, E., &amp; Gómez-Rubio, V. (2013). Applied Spatial Data Analysis with R. Springer New York. https://doi.org/10.1007/978-1-4614-7618-4
-
-Olaya, V. (2020). Sistemas de Información Geográfica. https://volaya.github.io/libro-sig/
-
-Lovelace, R., Nowosad, J., &amp; Muenchow, J. (2019). Geocomputation with R. Chapman and Hall/CRC. https://r.geocompx.org/
-
-Dorman, M., Graser A., Nowosad, J. &amp; Lovelace, R. (2019). Geocomputation with Python. Chapman and Hall/CRC. https://py.geocompx.org/
-
-Isaaks, E. H., &amp; Srivastava, M. (1989). Applied geostatistics.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

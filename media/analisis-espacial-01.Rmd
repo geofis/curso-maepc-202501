@@ -1,9 +1,9 @@
 ---
-title: "Análisis espacial (1)"
-subtitle: "Introducción a R y QGIS para el análisis geoespacial con apoyo de inteligencia artificial"
+title: "Análisis espacial (1). Introducción"
+subtitle: "Métodos de análisis espacial por computador"
 author: "José Martínez"
 institute: "Universidad Autónoma de Santo Domingo (UASD)"
-date: "2024-06-17 (updated: `r Sys.Date()`)"
+date: "Updated: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs

@@ -1,10 +1,11 @@
 ---
 title: "Análisis espacial (3). Autocorrelación espacial"
-subtitle: "Introducción a R y QGIS para el análisis geoespacial con apoyo de inteligencia artificial"
+
+subtitle: "Métodos de análisis espacial por computador"
 author: "José Martínez"
 institute: "Universidad Autónoma de Santo Domingo (UASD)"
+date: "Updated: `r Sys.Date()`"
 output: github_document
-date: "2024-06-17 (updated: `r Sys.Date()`)"
 bibliography: references.bib
 editor_options: 
   chunk_output_type: console
