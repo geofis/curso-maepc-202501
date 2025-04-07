@@ -154,3 +154,18 @@ académicos y profesionales.
 - Exploración de tendencias y avances futuros en el campo
 
 ## Referencias
+
+Bivand, R. S., Pebesma, E., & Gómez-Rubio, V. (2013). Applied Spatial
+Data Analysis with R. Springer New York.
+<https://doi.org/10.1007/978-1-4614-7618-4>
+
+Dorman, M., Graser A., Nowosad, J. & Lovelace, R. (2019). Geocomputation
+with Python. Chapman and Hall/CRC. <https://py.geocompx.org/>
+
+Isaaks, E. H., & Srivastava, M. (1989). Applied geostatistics.
+
+Lovelace, R., Nowosad, J., & Muenchow, J. (2019). Geocomputation with R.
+Chapman and Hall/CRC. <https://r.geocompx.org/>
+
+Olaya, V. (2020). Sistemas de Información Geográfica.
+<https://volaya.github.io/libro-sig/>
