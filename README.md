@@ -14,6 +14,14 @@ Versión HTML (quizá más legible),
   - [Tutorial interactivo “Introducción a
     R”](https://geofis.shinyapps.io/tutorial1/)
 
+- Introducción a Python, Google Colab y cuadernos Jupyter. Sesión
+  interactiva.
+
+  - Sigue [esta
+    asignación](https://github.com/biogeografia-master/intro-a-python)
+    de la asignatura “Biogeografía” (para acceder a Colab, necesitarás
+    una cuenta de Google).
+
 - [Introducción al análisis espacial o
   geoespacial](https://geofis.github.io/curso-maepc-202501/media/introduccion-analisis-geoespacial.html)
 
@@ -100,39 +108,36 @@ académicos y profesionales.
 
 ### Contenido
 
-**Día 1: Fundamentos de análisis geoespacial**
+**Fundamentos de análisis geoespacial**
 
 - Introducción al análisis geoespacial.
 - Conceptos básicos de SIG y datos geoespaciales.
 - Introducción a la programación con R y QGIS.
 - Preparación de datos geoespaciales.
 
-**Día 2: Manipulación y visualización de datos geoespaciales con R**
+**Manipulación y visualización de datos geoespaciales con R**
 
 - Manipulación de datos espaciales con R.
 - Visualización de datos geoespaciales en R.
 - Creación de mapas temáticos.
 
-**Día 3: Introducción a QGIS**
+**Manipulación y visualización de datos geoespaciales con Python**
+
+- Manipulación de datos espaciales con Python.
+- Visualización de datos geoespaciales en Python.
+- Creación de mapas temáticos.
+
+**Introducción a QGIS**
 
 - Instalación y configuración de QGIS.
 - Importación y visualización de datos geoespaciales en QGIS.
 - Herramientas básicas de análisis y edición.
 
-**Día 4: Integración de inteligencia artificial en el análisis
-geoespacial**
+**Integración de inteligencia artificial en el análisis geoespacial**
 
 - Conceptos básicos de inteligencia artificial y aprendizaje automático.
 - Aplicaciones de inteligencia artificial en análisis geoespacial.
-- Uso de herramientas de inteligencia artificial en R y QGIS.
-
-**Día 5: Proyectos prácticos**
-
-- Desarrollo de proyectos prácticos para aplicar los conocimientos
-  adquiridos.
-- Análisis de datos geoespaciales con R y QGIS.
-- Integración de técnicas de inteligencia artificial en proyectos de
-  análisis geoespacial.
+- Uso de herramientas de inteligencia artificial.
 
 **Casos de estudio y aplicaciones**
 
